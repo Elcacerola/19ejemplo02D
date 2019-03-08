@@ -11,7 +11,14 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        /* comentarios
+         */
+        $A=10;
+        $a=10;
+        $hello="hola mundo";
+           
+        echo "Saludo $hello";
+        
         ?>
     </body>
 </html>
