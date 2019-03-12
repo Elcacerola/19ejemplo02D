@@ -9,10 +9,16 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" 
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
+        <p style="background: yellowgreen; font-size: 25px">Uno</p>
+        <p class="estilo01">Dos</p>
+        <p class="estilo02">Tres</p>
+        
         <?php
         
         /* comentarios
@@ -34,7 +40,7 @@ and open the template in the editor.
         $dia["viernes"]='3 clases';
         echo "<br>";
         foreach ($dia as $value){
-            echo 
+            echo $value. "<br>";
         }
         ?>
     </body>
